@@ -1,0 +1,5 @@
+SELECT MIN(name) AS STARTING_ROLL
+FROM student
+LIMIT 3 -- WHERE NAME IS NOT NULL
+    -- DELETE FROM student
+    -- WHERE name = 'HOLA'
